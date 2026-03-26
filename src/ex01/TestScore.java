@@ -59,7 +59,7 @@ class Score {
 		
 		int v = (int) this.avg / 10;
 		switch(v){//정수, 문자열만 가능
-		case 10: this.grade = 'A'; 
+		case 10: 
 		case 9 : this.grade = 'A'; break; 
 		case 8 : this.grade = 'B'; break; 
 		case 7 : this.grade = 'C'; break; 
